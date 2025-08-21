@@ -81,7 +81,10 @@ namespace RyMApi
 
                 dgvCharacters.DataSource = filtrados;
             }
-
+            else
+            {
+                MessageBox.Show("No hay personajes cargados para filtrar.");
+            }
         }
     }
 }

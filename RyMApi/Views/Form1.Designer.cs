@@ -112,7 +112,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 454);
+            ClientSize = new Size(800, 448);
             Controls.Add(label3);
             Controls.Add(Buscar_txt);
             Controls.Add(label2);
