@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace RyMApi.Models
 {
+    /// Representa un personaje de la API de Rick and Morty.
+    /// Contiene información básica, origen, ubicación, episodios y metadatos.
     public class Character
     {
         public int id { get; set; }
@@ -19,12 +21,14 @@ namespace RyMApi.Models
         public DateTime created { get; set; }
     }
 
+    /// Representa el origen de un personaje en la API de Rick and Morty.
     public class Origin
     {
         public string name { get; set; }
         public string url { get; set; }
     }
 
+    /// Representa la ubicación de un personaje en la API de Rick and Morty.
     public class Location
     {
         public string name { get; set; }
